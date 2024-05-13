@@ -71,4 +71,3 @@ keymap("n", "<leader>ur", "<cmd>GpChatRespond<cr>", opts)
 keymap("n", "<leader>un", "<cmd>GpChatNew popup<cr>", opts)
 keymap("v", "<leader>ug", "<cmd>GpChatToggle popup<cr>", opts)
 keymap("v", "<leader>un", "<cmd>GpChatNew popup<cr>", opts)
-

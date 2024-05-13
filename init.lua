@@ -38,7 +38,6 @@ spec "user.ncm-r"
 spec "user.ChatGPT-nvim"
 spec "user.gp"
 spec "user.lazygit-nvim"
-spec "user.hardtime"
 spec "user.leap-nvim"
 require "user.lazy"
 vim.cmd("language en_US")
