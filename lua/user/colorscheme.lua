@@ -1,10 +1,11 @@
 local M = {
-  "folke/tokyonight.nvim",
+  "diegoulloao/neofusion.nvim",
   lazy = false, -- make sure we load this during startup if it is your main colorscheme
   priority = 1000, -- make sure to load this before all the other start plugins
+  config = true,
 }
 function M.config()
-  vim.cmd.colorscheme "tokyonight-moon"
+  vim.cmd.colorscheme "neofusion"
 end
 
 return M
