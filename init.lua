@@ -39,6 +39,7 @@ spec "user.ChatGPT-nvim"
 spec "user.gp"
 spec "user.lazygit-nvim"
 spec "user.leap-nvim"
+spec "user.clipboard-image"
 require "user.lazy"
 vim.cmd("language en_US")
 
