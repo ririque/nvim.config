@@ -5,8 +5,8 @@ local M = {
 
 function M.config()
   local wk = require "which-key"
-  wk.register {
-    ["<leader>e"] = { "<cmd>NvimTreeToggle<CR>", "Explorer" },
+  wk.add {
+    { "<leader>e", "<cmd>NvimTreeToggle<CR>", desc = "Explorer" },
   }
 
   local icons = require "user.icons"
@@ -29,16 +29,16 @@ function M.config()
         enable = false,
         inline_arrows = true,
         icons = {
-          corner = "└",
-          edge = "│",
-          item = "│",
+          corner = "?",
+          edge = "?",
+          item = "?",
           none = " ",
         },
       },
       icons = {
         git_placement = "before",
         padding = " ",
-        symlink_arrow = " ➛ ",
+        symlink_arrow = " ? ",
         glyphs = {
           default = icons.ui.Text,
           symlink = icons.ui.FileSymlink,
